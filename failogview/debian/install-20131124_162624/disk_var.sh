@@ -1,0 +1,4 @@
+SWAPLIST=""
+BOOT_DEVICE="/dev/sda"
+ROOT_PARTITION=/dev/sda1
+BOOT_PARTITION=/dev/sda1

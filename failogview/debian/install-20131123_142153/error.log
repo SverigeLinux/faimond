@@ -1,0 +1,63 @@
+dmesg.log:[    0.096672] ACPI Error: Needed type [Reference], found [Device] ffff880076f23800 (20090903/exresop-104)
+dmesg.log:[    0.096932] ACPI Error (psparse-0537): Method parse/execution failed [\_SB_.PCI0._OSC] (Node ffff880076f2aa80), AE_AML_OPERAND_TYPE
+dmesg.log:[    0.100530] ACPI Error: Needed type [Reference], found [Device] ffff880076f23800 (20090903/exresop-104)
+dmesg.log:[    0.100788] ACPI Error (psparse-0537): Method parse/execution failed [\_SB_.PCI0._OSC] (Node ffff880076f2aa80), AE_AML_OPERAND_TYPE
+dmesg.log:[    0.110958] pci 0000:00:05.0: BAR 13: can't allocate resource
+dmesg.log:[    0.111005] pci 0000:00:05.0: BAR 14: can't allocate resource
+dmesg.log:[    0.506041] PM: Resume from disk failed.
+dmesg.log:[    0.792014] ricoh-mmc: Main Ricoh function not found. Cannot disable controller.
+dmesg.log:[    0.824424] ahci 0000:00:12.0: controller can't do 64bit DMA, forcing 32bit
+dmesg.log:[    1.316013] ata3: softreset failed (device not ready)
+dmesg.log:[    6.807781] aufs: module is from the staging directory, the quality is unknown, you have been warned.
+dmesg.log:[   10.909781] amd64_edac: probe of 0000:00:18.2 failed with error -22
+dmesg.log:[   11.736158] ACPI Warning for \_SB_.BAT1._BST: Return Package type mismatch at index 2 - found [NULL Object Descriptor], expected Integer (20090903/nspredef-1012)
+dmesg.log:[   12.792822] Error: Driver 'pcspkr' is already registered, aborting...
+dmesg.log:[   13.017757] [drm:rs400_gart_adjust_size] *ERROR* Forcing to 32M GART size (because of ASIC bug ?)
+dmesg.log:[   13.069884] radeon_cp: Failed to load firmware "radeon/R300_cp.bin"
+dmesg.log:[   13.069958] [drm:r100_cp_init] *ERROR* Failed to load firmware!
+dmesg.log:[   13.070005] radeon 0000:01:05.0: failled initializing CP (-2).
+fai.log:@         WARNING: UNPROTECTED PRIVATE KEY FILE!          @
+fai.log:bad permissions: ignore key: /etc/ssh/ssh_host_rsa_key
+fai.log:@         WARNING: UNPROTECTED PRIVATE KEY FILE!          @
+fai.log:bad permissions: ignore key: /etc/ssh/ssh_host_dsa_key
+fai.log:dpkg: warning: obsolete option '--print-installation-architecture', please use '--print-architecture' instead.
+fai.log:find: `/lib/modules/2.6.32-5-amd64/kernel/drivers/ide/pci': No such file or directory
+fai.log:fcopy: copy /var/lib/fai/config/files/etc/apt/trustdb.gpg/OS_ELEMENTARY_02_X64 to /target/etc/apt/trustdb.gpg failed. Permission denied
+fai.log:updatebase.OS_ELEMENTARY_02_X64 FAILED with exit code 1.
+fai.log:W: GPG error: http://10.0.0.1 squeeze Release: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY DC13E54EAB9B66FD
+fai.log:dpkg: error: parsing file '/tmp/tmp.e6uKyGAaYt' near line 850999 package 'linux-image-2.6.33-grml64':
+fai.log: error in Version string 'grml.02': version number does not start with digit
+fai.log:Couldn't find package "vi", and more than 40
+fai.log:Couldn't find any package whose name or description matched "elementary-os-overlay"
+fai.log:Couldn't find package "vi", and more than 40
+fai.log:Couldn't find any package whose name or description matched "elementary-os-overlay"
+fai.log:The following packages have unmet dependencies:
+fai.log:rmdir: failed to remove `/var/lib/libreoffice/basis3.4/program/': No such file or directory
+fai.log:rmdir: failed to remove `/var/lib/libreoffice/basis3.4': No such file or directory
+fai.log:/usr/lib/python2.7/dist-packages/LanguageSelector/LocaleInfo.py:256: UserWarning: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+fai.log:  warnings.warn(msg.args[0].encode('UTF-8'))
+fai.log:hostname: Temporary failure in name resolution
+fai.log:update-rc.d: warning: /etc/init.d/acpi-support missing LSB information
+fai.log:start: Unable to connect to Upstart: Failed to connect to socket /com/ubuntu/upstart: Connection refused
+fai.log:hostname: Temporary failure in name resolution
+fai.log:hostname: Temporary failure in name resolution
+fai.log:update-alternatives: warning: skip creation of /usr/share/icons/gnome/256x256/places/start-here.png because associated file /usr/share/icons/gnome/256x256/places/ubuntu-logo.png (of link group start-here.svg) doesn't exist.
+fai.log:update-alternatives: warning: skip creation of /usr/share/icons/gnome/48x48/places/start-here.png because associated file /usr/share/icons/gnome/48x48/places/ubuntu-logo.png (of link group start-here.svg) doesn't exist.
+fai.log:Couldn't find package "indicator-status-provider".  However, the following
+fai.log:Couldn't find package "indicator-status-provider".  However, the following
+fai.log:The following packages have unmet dependencies:
+fai.log:cat: /boot/grub/video.lst: No such file or directory
+fai.log:cat: /boot/grub/video.lst: No such file or directory
+fai.log:update-alternatives: warning: skip creation of /usr/share/man/man1/x-www-browser.1.gz because associated file /usr/share/man/man1/midori.1.gz (of link group x-www-browser) doesn't exist.
+fai.log:update-alternatives: error: no alternatives for ctags.
+fai.log:update-alternatives: error: no alternatives for etags.
+fai.log:WARNING:softwarecenter.db.update:Failed to setup dbus (ignoring)
+fai.log:Couldn't find any package whose name or description matched "elementary-os-overlay"
+fai.log:Couldn't find any package whose name or description matched "elementary-os-overlay"
+fai.log:    RX: bytes  packets  errors  dropped overrun mcast   
+fai.log:    TX: bytes  packets  errors  dropped carrier collsns 
+fai.log:    RX: bytes  packets  errors  dropped overrun mcast   
+fai.log:    TX: bytes  packets  errors  dropped carrier collsns 
+fai.log:WARNING: Subdirectory tests/ not found. No tests run.
+fai.log:WARNING: ssh -l fai 10.0.0.1 failed. Can't call fai-chboot on the install server.
+status.log:updatebase.OS_ELEMENTARY_02_X64 FAILED with exit code 1.

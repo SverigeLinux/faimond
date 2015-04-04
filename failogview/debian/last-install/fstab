@@ -1,0 +1,4 @@
+# /etc/fstab: static file system information.
+#
+# <file sys>	<mount point>	<type>	<options>	<dump>	<pass>
+/dev/sda1	/	ext3	rw,relatime,errors=remount-ro	0	1

@@ -1,0 +1,7 @@
+etc/apt/sources.list	OS_DEBIAN_WHEEZY_X64	# new (literal)
+etc/apt/trusted.gpg.d/debian-archive-wheezy-stable.gpg	OS_DEBIAN_WHEEZY_X64	# preserved (literal)
+etc/apt/trusted.gpg.d/debian-archive-wheezy-automatic.gpg	OS_DEBIAN_WHEEZY_X64	# preserved (literal)
+etc/default/console-setup	LANG_SWEDISH	# new (literal)
+etc/network/interfaces	NW_DHCP	# new (literal)
+etc/default/locale	LANG_SWEDISH	# new (literal)
+etc/default/keyboard	LANG_SWEDISH	# new (literal)

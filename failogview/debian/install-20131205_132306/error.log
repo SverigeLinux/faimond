@@ -1,0 +1,306 @@
+dmesg.log:[    0.096709] ACPI Error: Needed type [Reference], found [Device] ffff880076f23800 (20090903/exresop-104)
+dmesg.log:[    0.096970] ACPI Error (psparse-0537): Method parse/execution failed [\_SB_.PCI0._OSC] (Node ffff880076f2aa80), AE_AML_OPERAND_TYPE
+dmesg.log:[    0.102269] ACPI Error: Needed type [Reference], found [Device] ffff880076f23800 (20090903/exresop-104)
+dmesg.log:[    0.102528] ACPI Error (psparse-0537): Method parse/execution failed [\_SB_.PCI0._OSC] (Node ffff880076f2aa80), AE_AML_OPERAND_TYPE
+dmesg.log:[    0.111005] pci 0000:00:05.0: BAR 13: can't allocate resource
+dmesg.log:[    0.111051] pci 0000:00:05.0: BAR 14: can't allocate resource
+dmesg.log:[    0.506038] PM: Resume from disk failed.
+dmesg.log:[    0.792196] ricoh-mmc: Main Ricoh function not found. Cannot disable controller.
+dmesg.log:[    0.825001] ahci 0000:00:12.0: controller can't do 64bit DMA, forcing 32bit
+dmesg.log:[    1.320013] ata3: softreset failed (device not ready)
+dmesg.log:[    6.764505] aufs: module is from the staging directory, the quality is unknown, you have been warned.
+dmesg.log:[   11.568158] ACPI Warning for \_SB_.BAT1._BST: Return Package type mismatch at index 2 - found [NULL Object Descriptor], expected Integer (20090903/nspredef-1012)
+dmesg.log:[   12.028196] amd64_edac: probe of 0000:00:18.2 failed with error -22
+dmesg.log:[   12.121356] Error: Driver 'pcspkr' is already registered, aborting...
+dmesg.log:[   12.459536] [drm:rs400_gart_adjust_size] *ERROR* Forcing to 32M GART size (because of ASIC bug ?)
+dmesg.log:[   12.505026] radeon_cp: Failed to load firmware "radeon/R300_cp.bin"
+dmesg.log:[   12.505080] [drm:r100_cp_init] *ERROR* Failed to load firmware!
+dmesg.log:[   12.505127] radeon 0000:01:05.0: failled initializing CP (-2).
+fai.log:@         WARNING: UNPROTECTED PRIVATE KEY FILE!          @
+fai.log:bad permissions: ignore key: /etc/ssh/ssh_host_rsa_key
+fai.log:@         WARNING: UNPROTECTED PRIVATE KEY FILE!          @
+fai.log:bad permissions: ignore key: /etc/ssh/ssh_host_dsa_key
+fai.log:dpkg: warning: obsolete option '--print-installation-architecture', please use '--print-architecture' instead.
+fai.log:find: `/lib/modules/2.6.32-5-amd64/kernel/drivers/ide/pci': No such file or directory
+fai.log:fcopy: copy /var/lib/fai/config/files/etc/apt/trustdb.gpg/OS_ELEMENTARY_02_X64 to /target/etc/apt/trustdb.gpg failed. Permission denied
+fai.log:updatebase.OS_ELEMENTARY_02_X64 FAILED with exit code 1.
+fai.log:W: Failed to fetch http://10.0.0.1:9999/se.archive.ubuntu.com/ubuntu/dists/precise-updates/InRelease  
+fai.log:W: Failed to fetch http://10.0.0.1:9999/security.ubuntu.com/ubuntu/dists/precise-security/InRelease  
+fai.log:W: Failed to fetch http://10.0.0.1:9999/fai-project.org/download/dists/squeeze/InRelease  
+fai.log:W: Failed to fetch http://10.0.0.1:9999/archive.ubuntu.com/ubuntu/dists/precise-backports/InRelease  
+fai.log:W: Failed to fetch http://10.0.0.1:9999/ppa.launchpad.net/elementary-os/stable/ubuntu/dists/precise/Release.gpg  Unable to connect to 10.0.0.1:9999:
+fai.log:W: Failed to fetch http://10.0.0.1:9999/ppa.launchpad.net/elementary-os/os-patches/ubuntu/dists/precise/Release.gpg  Unable to connect to 10.0.0.1:9999:
+fai.log:W: Failed to fetch http://10.0.0.1:9999/se.archive.ubuntu.com/ubuntu/dists/precise/Release.gpg  Unable to connect to 10.0.0.1:9999:
+fai.log:W: Failed to fetch http://10.0.0.1:9999/se.archive.ubuntu.com/ubuntu/dists/precise-updates/Release.gpg  Unable to connect to 10.0.0.1:9999:
+fai.log:W: Failed to fetch http://10.0.0.1:9999/security.ubuntu.com/ubuntu/dists/precise-security/Release.gpg  Unable to connect to 10.0.0.1:9999:
+fai.log:W: Failed to fetch http://10.0.0.1:9999/fai-project.org/download/dists/squeeze/Release.gpg  Unable to connect to 10.0.0.1:9999:
+fai.log:W: Failed to fetch http://10.0.0.1:9999/archive.ubuntu.com/ubuntu/dists/precise-backports/Release.gpg  Unable to connect to 10.0.0.1:9999:
+fai.log:W: Some index files failed to download. They have been ignored, or old ones used instead.
+fai.log:Couldn't find any package whose name or description matched "cfengine2"
+fai.log:No candidate version found for dialog
+fai.log:Couldn't find any package whose name or description matched "fai-client"
+fai.log:No candidate version found for nullmailer
+fai.log:Couldn't find any package whose name or description matched "procinfo"
+fai.log:Couldn't find package "vi", and more than 40
+fai.log:No candidate version found for inetutils-ping
+fai.log:Couldn't find any package whose name or description matched "inetutils-traceroute"
+fai.log:Couldn't find any package whose name or description matched "nspluginwrapper"
+fai.log:No candidate version found for ia32-libs
+fai.log:Couldn't find any package whose name or description matched "apport-hooks-elementary"
+fai.log:Couldn't find any package whose name or description matched "contractor"
+fai.log:Couldn't find any package whose name or description matched "elementary-artwork"
+fai.log:Couldn't find any package whose name or description matched "elementary-desktop"
+fai.log:Couldn't find any package whose name or description matched "elementary-icon-theme"
+fai.log:Couldn't find any package whose name or description matched "elementary-minimal"
+fai.log:Couldn't find any package whose name or description matched "elementary-scan"
+fai.log:Couldn't find any package whose name or description matched "elementary-standard"
+fai.log:Couldn't find any package whose name or description matched "elementary-theme"
+fai.log:Couldn't find any package whose name or description matched "elementary-wallpapers"
+fai.log:Couldn't find any package whose name or description matched "firmware-b43-installer"
+fai.log:Couldn't find any package whose name or description matched "fonts-elementary-core"
+fai.log:Couldn't find any package whose name or description matched "fonts-elementary-extra"
+fai.log:Couldn't find any package whose name or description matched "fonts-lklug-sinhala"
+fai.log:Couldn't find any package matching "gala".  However, the following
+fai.log:Couldn't find any package whose name or description matched "cfengine2"
+fai.log:No candidate version found for dialog
+fai.log:Couldn't find any package whose name or description matched "fai-client"
+fai.log:No candidate version found for nullmailer
+fai.log:Couldn't find any package whose name or description matched "procinfo"
+fai.log:Couldn't find package "vi", and more than 40
+fai.log:No candidate version found for inetutils-ping
+fai.log:Couldn't find any package whose name or description matched "inetutils-traceroute"
+fai.log:Couldn't find any package whose name or description matched "nspluginwrapper"
+fai.log:No candidate version found for ia32-libs
+fai.log:Couldn't find any package whose name or description matched "apport-hooks-elementary"
+fai.log:Couldn't find any package whose name or description matched "contractor"
+fai.log:Couldn't find any package whose name or description matched "elementary-artwork"
+fai.log:Couldn't find any package whose name or description matched "elementary-desktop"
+fai.log:Couldn't find any package whose name or description matched "elementary-icon-theme"
+fai.log:Couldn't find any package whose name or description matched "elementary-minimal"
+fai.log:Couldn't find any package whose name or description matched "elementary-scan"
+fai.log:Couldn't find any package whose name or description matched "elementary-standard"
+fai.log:Couldn't find any package whose name or description matched "elementary-theme"
+fai.log:Couldn't find any package whose name or description matched "elementary-wallpapers"
+fai.log:Couldn't find any package whose name or description matched "firmware-b43-installer"
+fai.log:Couldn't find any package whose name or description matched "fonts-elementary-core"
+fai.log:Couldn't find any package whose name or description matched "fonts-elementary-extra"
+fai.log:Couldn't find any package whose name or description matched "fonts-lklug-sinhala"
+fai.log:Couldn't find any package matching "gala".  However, the following
+fai.log:rmdir: failed to remove `/var/lib/libreoffice/basis3.4/program/': No such file or directory
+fai.log:rmdir: failed to remove `/var/lib/libreoffice/basis3.4': No such file or directory
+fai.log:hostname: Temporary failure in name resolution
+fai.log:E: Failed to fetch http://10.0.0.1:9999/se.archive.ubuntu.com/ubuntu/pool/main/libx/libxmu/libxmu6_1.1.0-3_amd64.deb: Could not connect to 10.0.0.1:9999 (10.0.0.1). - connect (110: Connection timed out)
+fai.log:E: Failed to fetch http://10.0.0.1:9999/se.archive.ubuntu.com/ubuntu/pool/main/libx/libxmu/libxmu6_1.1.0-3_amd64.deb: Could not connect to 10.0.0.1:9999 (10.0.0.1). - connect (110: Connection timed out)
+fai.log:Couldn't find any package whose name or description matched "geary"
+fai.log:No candidate version found for indicator-applet
+fai.log:Couldn't find package "indicator-status-provider".  However, the following
+fai.log:Couldn't find any package whose name or description matched "geary"
+fai.log:No candidate version found for indicator-applet
+fai.log:Couldn't find package "indicator-status-provider".  However, the following
+fai.log:  500  Connection failure: Network is unreachable
+fai.log:  500  Connection failure: Network is unreachable
+fai.log:  500  Connection failure: Network is unreachable
+fai.log:  500  Connection failure: Network is unreachable
+fai.log:  500  Connection failure: Network is unreachable
+fai.log:  500  Connection failure: Network is unreachable
+fai.log:  500  Connection failure: Network is unreachable
+fai.log:  500  Connection failure: Network is unreachable
+fai.log:  500  Connection failure: Network is unreachable
+fai.log:  500  Connection failure: Network is unreachable
+fai.log:  500  Connection failure: Network is unreachable
+fai.log:  500  Connection failure: Network is unreachable
+fai.log:rmdir: failed to remove `/var/lib/libreoffice/share/prereg/': No such file or directory
+fai.log:rmdir: failed to remove `/var/lib/libreoffice/share/': No such file or directory
+fai.log:rmdir: failed to remove `/var/lib/libreoffice/program/': No such file or directory
+fai.log:rmdir: failed to remove `/var/lib/libreoffice': No such file or directory
+fai.log:rmdir: failed to remove `/var/lib/libreoffice': No such file or directory
+fai.log:/usr/lib/python2.7/dist-packages/LanguageSelector/LocaleInfo.py:256: UserWarning: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+fai.log:  warnings.warn(msg.args[0].encode('UTF-8'))
+fai.log:E: Failed to fetch http://10.0.0.1:9999/se.archive.ubuntu.com/ubuntu/pool/main/d/desktop-file-utils/desktop-file-utils_0.20-0ubuntu2_amd64.deb: 500  Connection failure: Network is unreachable
+fai.log:E: Failed to fetch http://10.0.0.1:9999/se.archive.ubuntu.com/ubuntu/pool/main/d/desktop-file-utils/desktop-file-utils_0.20-0ubuntu2_amd64.deb: 500  Connection failure: Network is unreachable
+fai.log:Couldn't find any package whose name or description matched "linux-image-3.2.0-51-generic"
+fai.log:Couldn't find any package whose name or description matched "maya-calendar"
+fai.log:Couldn't find any package whose name or description matched "midori-granite"
+fai.log:Couldn't find any package whose name or description matched "notify-osd-icons-elementary"
+fai.log:No candidate version found for p7zip-full
+fai.log:Couldn't find any package whose name or description matched "pantheon"
+fai.log:Couldn't find any package whose name or description matched "pantheon-files"
+fai.log:Couldn't find any package whose name or description matched "pantheon-greeter"
+fai.log:Couldn't find any package whose name or description matched "pantheon-print"
+fai.log:Couldn't find any package whose name or description matched "pantheon-shell"
+fai.log:Couldn't find any package whose name or description matched "pantheon-terminal"
+fai.log:Couldn't find any package whose name or description matched "pantheon-xsession-settings"
+fai.log:Couldn't find any package whose name or description matched "plank"
+fai.log:Couldn't find any package whose name or description matched "plank-theme-pantheon"
+fai.log:Couldn't find any package whose name or description matched "plymouth-theme-elementary"
+fai.log:Couldn't find any package whose name or description matched "plymouth-theme-elementary-text"
+fai.log:Couldn't find any package matching "preload".  However, the following
+fai.log:Couldn't find any package whose name or description matched "print-test-page-elementary"
+fai.log:Couldn't find any package whose name or description matched "linux-image-3.2.0-51-generic"
+fai.log:Couldn't find any package whose name or description matched "maya-calendar"
+fai.log:Couldn't find any package whose name or description matched "midori-granite"
+fai.log:Couldn't find any package whose name or description matched "notify-osd-icons-elementary"
+fai.log:No candidate version found for p7zip-full
+fai.log:Couldn't find any package whose name or description matched "pantheon"
+fai.log:Couldn't find any package whose name or description matched "pantheon-files"
+fai.log:Couldn't find any package whose name or description matched "pantheon-greeter"
+fai.log:Couldn't find any package whose name or description matched "pantheon-print"
+fai.log:Couldn't find any package whose name or description matched "pantheon-shell"
+fai.log:Couldn't find any package whose name or description matched "pantheon-terminal"
+fai.log:Couldn't find any package whose name or description matched "pantheon-xsession-settings"
+fai.log:Couldn't find any package whose name or description matched "plank"
+fai.log:Couldn't find any package whose name or description matched "plank-theme-pantheon"
+fai.log:Couldn't find any package whose name or description matched "plymouth-theme-elementary"
+fai.log:Couldn't find any package whose name or description matched "plymouth-theme-elementary-text"
+fai.log:Couldn't find any package matching "preload".  However, the following
+fai.log:Couldn't find any package whose name or description matched "print-test-page-elementary"
+fai.log:Couldn't find any package matching "scratch".  However, the following
+fai.log:Couldn't find any package whose name or description matched "scratch-text-editor"
+fai.log:Couldn't find any package whose name or description matched "slingshot-launcher"
+fai.log:Couldn't find any package whose name or description matched "switchboard"
+fai.log:Couldn't find any package whose name or description matched "switchboard-gnome-control-center"
+fai.log:Couldn't find any package whose name or description matched "switchboard-gnome-control-center-override"
+fai.log:Couldn't find any package whose name or description matched "switchboard-plug-about"
+fai.log:Couldn't find any package whose name or description matched "switchboard-plug-default-applications"
+fai.log:Couldn't find any package whose name or description matched "switchboard-plug-keyboard"
+fai.log:Couldn't find any package whose name or description matched "switchboard-plug-pantheon-shell"
+fai.log:Couldn't find any package whose name or description matched "switchboard-plug-power"
+fai.log:No candidate version found for traceroute
+fai.log:Couldn't find any package whose name or description matched "tumbler-plugins-extra"
+fai.log:Couldn't find any package whose name or description matched "ubuntu-restricted-extras"
+fai.log:Couldn't find any package whose name or description matched "user-specific-alternatives"
+fai.log:Couldn't find any package whose name or description matched "wingpanel"
+fai.log:Couldn't find any package matching "scratch".  However, the following
+fai.log:Couldn't find any package whose name or description matched "scratch-text-editor"
+fai.log:Couldn't find any package whose name or description matched "slingshot-launcher"
+fai.log:Couldn't find any package whose name or description matched "switchboard"
+fai.log:Couldn't find any package whose name or description matched "switchboard-gnome-control-center"
+fai.log:Couldn't find any package whose name or description matched "switchboard-gnome-control-center-override"
+fai.log:Couldn't find any package whose name or description matched "switchboard-plug-about"
+fai.log:Couldn't find any package whose name or description matched "switchboard-plug-default-applications"
+fai.log:Couldn't find any package whose name or description matched "switchboard-plug-keyboard"
+fai.log:Couldn't find any package whose name or description matched "switchboard-plug-pantheon-shell"
+fai.log:Couldn't find any package whose name or description matched "switchboard-plug-power"
+fai.log:No candidate version found for traceroute
+fai.log:Couldn't find any package whose name or description matched "tumbler-plugins-extra"
+fai.log:Couldn't find any package whose name or description matched "ubuntu-restricted-extras"
+fai.log:Couldn't find any package whose name or description matched "user-specific-alternatives"
+fai.log:Couldn't find any package whose name or description matched "wingpanel"
+fai.log:WARNING:softwarecenter.db.update:Failed to setup dbus (ignoring)
+fai.log:E: Failed to fetch http://10.0.0.1:9999/se.archive.ubuntu.com/ubuntu/pool/main/libx/libxmu/libxmu6_1.1.0-3_amd64.deb: Could not connect to 10.0.0.1:9999 (10.0.0.1). - connect (110: Connection timed out)
+fai.log:E: Failed to fetch http://10.0.0.1:9999/se.archive.ubuntu.com/ubuntu/pool/main/libx/libxmu/libxmu6_1.1.0-3_amd64.deb: Could not connect to 10.0.0.1:9999 (10.0.0.1). - connect (110: Connection timed out)
+fai.log:E: Failed to fetch http://10.0.0.1:9999/se.archive.ubuntu.com/ubuntu/pool/main/d/desktop-file-utils/desktop-file-utils_0.20-0ubuntu2_amd64.deb: 500  Connection failure: Network is unreachable
+fai.log:E: Failed to fetch http://10.0.0.1:9999/se.archive.ubuntu.com/ubuntu/pool/main/d/desktop-file-utils/desktop-file-utils_0.20-0ubuntu2_amd64.deb: 500  Connection failure: Network is unreachable
+fai.log:Couldn't find any package whose name or description matched "cfengine2"
+fai.log:Couldn't find any package whose name or description matched "fai-client"
+fai.log:Couldn't find any package whose name or description matched "procinfo"
+fai.log:Couldn't find any package whose name or description matched "inetutils-traceroute"
+fai.log:Couldn't find any package whose name or description matched "nspluginwrapper"
+fai.log:Couldn't find any package whose name or description matched "apport-hooks-elementary"
+fai.log:Couldn't find any package whose name or description matched "contractor"
+fai.log:Couldn't find any package whose name or description matched "elementary-artwork"
+fai.log:Couldn't find any package whose name or description matched "elementary-desktop"
+fai.log:Couldn't find any package whose name or description matched "elementary-icon-theme"
+fai.log:Couldn't find any package whose name or description matched "elementary-minimal"
+fai.log:Couldn't find any package whose name or description matched "elementary-scan"
+fai.log:Couldn't find any package whose name or description matched "elementary-standard"
+fai.log:Couldn't find any package whose name or description matched "elementary-theme"
+fai.log:Couldn't find any package whose name or description matched "elementary-wallpapers"
+fai.log:Couldn't find any package whose name or description matched "firmware-b43-installer"
+fai.log:Couldn't find any package whose name or description matched "fonts-elementary-core"
+fai.log:Couldn't find any package whose name or description matched "fonts-elementary-extra"
+fai.log:Couldn't find any package whose name or description matched "fonts-lklug-sinhala"
+fai.log:Couldn't find any package whose name or description matched "cfengine2"
+fai.log:Couldn't find any package whose name or description matched "fai-client"
+fai.log:Couldn't find any package whose name or description matched "procinfo"
+fai.log:Couldn't find any package whose name or description matched "inetutils-traceroute"
+fai.log:Couldn't find any package whose name or description matched "nspluginwrapper"
+fai.log:Couldn't find any package whose name or description matched "apport-hooks-elementary"
+fai.log:Couldn't find any package whose name or description matched "contractor"
+fai.log:Couldn't find any package whose name or description matched "elementary-artwork"
+fai.log:Couldn't find any package whose name or description matched "elementary-desktop"
+fai.log:Couldn't find any package whose name or description matched "elementary-icon-theme"
+fai.log:Couldn't find any package whose name or description matched "elementary-minimal"
+fai.log:Couldn't find any package whose name or description matched "elementary-scan"
+fai.log:Couldn't find any package whose name or description matched "elementary-standard"
+fai.log:Couldn't find any package whose name or description matched "elementary-theme"
+fai.log:Couldn't find any package whose name or description matched "elementary-wallpapers"
+fai.log:Couldn't find any package whose name or description matched "firmware-b43-installer"
+fai.log:Couldn't find any package whose name or description matched "fonts-elementary-core"
+fai.log:Couldn't find any package whose name or description matched "fonts-elementary-extra"
+fai.log:Couldn't find any package whose name or description matched "fonts-lklug-sinhala"
+fai.log:Couldn't find any package whose name or description matched "geary"
+fai.log:Couldn't find any package whose name or description matched "geary"
+fai.log:Couldn't find any package whose name or description matched "linux-image-3.2.0-51-generic"
+fai.log:Couldn't find any package whose name or description matched "maya-calendar"
+fai.log:Couldn't find any package whose name or description matched "midori-granite"
+fai.log:Couldn't find any package whose name or description matched "notify-osd-icons-elementary"
+fai.log:Couldn't find any package whose name or description matched "pantheon"
+fai.log:Couldn't find any package whose name or description matched "pantheon-files"
+fai.log:Couldn't find any package whose name or description matched "pantheon-greeter"
+fai.log:Couldn't find any package whose name or description matched "pantheon-print"
+fai.log:Couldn't find any package whose name or description matched "pantheon-shell"
+fai.log:Couldn't find any package whose name or description matched "pantheon-terminal"
+fai.log:Couldn't find any package whose name or description matched "pantheon-xsession-settings"
+fai.log:Couldn't find any package whose name or description matched "plank"
+fai.log:Couldn't find any package whose name or description matched "plank-theme-pantheon"
+fai.log:Couldn't find any package whose name or description matched "plymouth-theme-elementary"
+fai.log:Couldn't find any package whose name or description matched "plymouth-theme-elementary-text"
+fai.log:Couldn't find any package whose name or description matched "print-test-page-elementary"
+fai.log:Couldn't find any package whose name or description matched "linux-image-3.2.0-51-generic"
+fai.log:Couldn't find any package whose name or description matched "maya-calendar"
+fai.log:Couldn't find any package whose name or description matched "midori-granite"
+fai.log:Couldn't find any package whose name or description matched "notify-osd-icons-elementary"
+fai.log:Couldn't find any package whose name or description matched "pantheon"
+fai.log:Couldn't find any package whose name or description matched "pantheon-files"
+fai.log:Couldn't find any package whose name or description matched "pantheon-greeter"
+fai.log:Couldn't find any package whose name or description matched "pantheon-print"
+fai.log:Couldn't find any package whose name or description matched "pantheon-shell"
+fai.log:Couldn't find any package whose name or description matched "pantheon-terminal"
+fai.log:Couldn't find any package whose name or description matched "pantheon-xsession-settings"
+fai.log:Couldn't find any package whose name or description matched "plank"
+fai.log:Couldn't find any package whose name or description matched "plank-theme-pantheon"
+fai.log:Couldn't find any package whose name or description matched "plymouth-theme-elementary"
+fai.log:Couldn't find any package whose name or description matched "plymouth-theme-elementary-text"
+fai.log:Couldn't find any package whose name or description matched "print-test-page-elementary"
+fai.log:Couldn't find any package whose name or description matched "scratch-text-editor"
+fai.log:Couldn't find any package whose name or description matched "slingshot-launcher"
+fai.log:Couldn't find any package whose name or description matched "switchboard"
+fai.log:Couldn't find any package whose name or description matched "switchboard-gnome-control-center"
+fai.log:Couldn't find any package whose name or description matched "switchboard-gnome-control-center-override"
+fai.log:Couldn't find any package whose name or description matched "switchboard-plug-about"
+fai.log:Couldn't find any package whose name or description matched "switchboard-plug-default-applications"
+fai.log:Couldn't find any package whose name or description matched "switchboard-plug-keyboard"
+fai.log:Couldn't find any package whose name or description matched "switchboard-plug-pantheon-shell"
+fai.log:Couldn't find any package whose name or description matched "switchboard-plug-power"
+fai.log:Couldn't find any package whose name or description matched "tumbler-plugins-extra"
+fai.log:Couldn't find any package whose name or description matched "ubuntu-restricted-extras"
+fai.log:Couldn't find any package whose name or description matched "user-specific-alternatives"
+fai.log:Couldn't find any package whose name or description matched "wingpanel"
+fai.log:Couldn't find any package whose name or description matched "scratch-text-editor"
+fai.log:Couldn't find any package whose name or description matched "slingshot-launcher"
+fai.log:Couldn't find any package whose name or description matched "switchboard"
+fai.log:Couldn't find any package whose name or description matched "switchboard-gnome-control-center"
+fai.log:Couldn't find any package whose name or description matched "switchboard-gnome-control-center-override"
+fai.log:Couldn't find any package whose name or description matched "switchboard-plug-about"
+fai.log:Couldn't find any package whose name or description matched "switchboard-plug-default-applications"
+fai.log:Couldn't find any package whose name or description matched "switchboard-plug-keyboard"
+fai.log:Couldn't find any package whose name or description matched "switchboard-plug-pantheon-shell"
+fai.log:Couldn't find any package whose name or description matched "switchboard-plug-power"
+fai.log:Couldn't find any package whose name or description matched "tumbler-plugins-extra"
+fai.log:Couldn't find any package whose name or description matched "ubuntu-restricted-extras"
+fai.log:Couldn't find any package whose name or description matched "user-specific-alternatives"
+fai.log:Couldn't find any package whose name or description matched "wingpanel"
+fai.log:GRUB/10-setup        FAILED with exit code 1.
+fai.log:    RX: bytes  packets  errors  dropped overrun mcast   
+fai.log:    TX: bytes  packets  errors  dropped carrier collsns 
+fai.log:    RX: bytes  packets  errors  dropped overrun mcast   
+fai.log:    TX: bytes  packets  errors  dropped carrier collsns 
+fai.log:WARNING: Subdirectory tests/ not found. No tests run.
+shell.log:chroot: failed to run command `grub-mkdevicemap': No such file or directory
+shell.log:chroot: failed to run command `grub-probe': No such file or directory
+shell.log:chroot: failed to run command `grub-install': No such file or directory
+shell.log:chroot: failed to run command `update-grub': No such file or directory
+shell.log:GRUB/10-setup        FAILED with exit code 1.
+status.log:updatebase.OS_ELEMENTARY_02_X64 FAILED with exit code 1.
+status.log:GRUB/10-setup        FAILED with exit code 1.

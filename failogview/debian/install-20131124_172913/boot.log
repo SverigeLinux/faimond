@@ -1,0 +1,15 @@
+netdevices_all="eth0"
+netdevices_up="eth0"
+netdevices="eth0"
+BROADCAST='10.0.0.255'
+DOMAIN='rfz.local'
+DNSSRVS='192.168.1.1'
+DNSSRVS_1='192.168.1.1'
+HOSTNAME='debian'
+IPADDR='10.0.0.101'
+NETWORK='10.0.0.0'
+NTPSRVS='10.0.0.1'
+NTPSRVS_1='10.0.0.1'
+GATEWAYS='10.0.0.1'
+GATEWAYS_1='10.0.0.1'
+NETMASK='255.255.255.0'

@@ -1,0 +1,17 @@
+Starting setup-storage 1.3
+Using config file: /var/lib/fai/config/disk_config/HDD_SINGLE
+Executing: parted -s /dev/sda unit TiB print
+Executing: parted -s /dev/sda unit B print free
+Executing: parted -s /dev/sda unit chs print free
+    Finding all volume groups
+  No volume groups found
+Executing: mdadm --examine --scan --verbose -c partitions
+Executing: vgchange -a n
+Executing: parted -s /dev/sda mklabel msdos
+Executing: parted -s /dev/sda mkpart primary "ext3" 32256B 4293596159B
+Executing: parted -s /dev/sda mkpart primary "linux-swap" 4293596160B 5362882559B
+Executing: mkfs.ext3  /dev/sda1
+Executing: mkswap  /dev/sda2
+Executing: fai-vol_id -u /dev/sda1
+Executing: fai-vol_id -l /dev/sda1
+/dev/sda1 UUID=dafc3fef-2e29-460f-bb08-eee6cf5ded82

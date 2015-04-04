@@ -1,0 +1,21 @@
+10-base-classes      OK.
+20-hwdetect.source   OK.
+50-host-classes      OK.
+updatebase.OS_ELEMENTARY_02_X64 FAILED with exit code 1.
+BC_BASE/10-misc      OK.
+
+BC_BASE/20-fcopy     OK.
+
+OS_ELEMENTARY_02_X64/10-createuser OK.
+
+OS_ELEMENTARY_02_X64/20-flashsymlink OK.
+
+GRUB/10-setup        OK.
+
+GRUB/20-initramfs    OK.
+
+LAST/40-language     OK.
+
+LAST/50-misc         OK.
+
+savelog.LAST.source  OK.

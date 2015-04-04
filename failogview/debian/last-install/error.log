@@ -1,0 +1,72 @@
+dmesg.log:[    0.092711] ACPI Error: Needed type [Reference], found [Device] ffff880076f23800 (20090903/exresop-104)
+dmesg.log:[    0.092972] ACPI Error (psparse-0537): Method parse/execution failed [\_SB_.PCI0._OSC] (Node ffff880076f2aa80), AE_AML_OPERAND_TYPE
+dmesg.log:[    0.098275] ACPI Error: Needed type [Reference], found [Device] ffff880076f23800 (20090903/exresop-104)
+dmesg.log:[    0.098532] ACPI Error (psparse-0537): Method parse/execution failed [\_SB_.PCI0._OSC] (Node ffff880076f2aa80), AE_AML_OPERAND_TYPE
+dmesg.log:[    0.107012] pci 0000:00:05.0: BAR 13: can't allocate resource
+dmesg.log:[    0.107058] pci 0000:00:05.0: BAR 14: can't allocate resource
+dmesg.log:[    0.502549] PM: Resume from disk failed.
+dmesg.log:[    0.797937] ricoh-mmc: Main Ricoh function not found. Cannot disable controller.
+dmesg.log:[    0.832513] ahci 0000:00:12.0: controller can't do 64bit DMA, forcing 32bit
+dmesg.log:[    1.324014] ata3: softreset failed (device not ready)
+dmesg.log:[    6.718869] aufs: module is from the staging directory, the quality is unknown, you have been warned.
+dmesg.log:[   10.648158] ACPI Warning for \_SB_.BAT1._BST: Return Package type mismatch at index 2 - found [NULL Object Descriptor], expected Integer (20090903/nspredef-1012)
+dmesg.log:[   11.091233] amd64_edac: probe of 0000:00:18.2 failed with error -22
+dmesg.log:[   11.212709] Error: Driver 'pcspkr' is already registered, aborting...
+dmesg.log:[   11.431841] [drm:rs400_gart_adjust_size] *ERROR* Forcing to 32M GART size (because of ASIC bug ?)
+dmesg.log:[   11.465087] radeon_cp: Failed to load firmware "radeon/R300_cp.bin"
+dmesg.log:[   11.465140] [drm:r100_cp_init] *ERROR* Failed to load firmware!
+dmesg.log:[   11.465187] radeon 0000:01:05.0: failled initializing CP (-2).
+fai.log:@         WARNING: UNPROTECTED PRIVATE KEY FILE!          @
+fai.log:bad permissions: ignore key: /etc/ssh/ssh_host_rsa_key
+fai.log:@         WARNING: UNPROTECTED PRIVATE KEY FILE!          @
+fai.log:bad permissions: ignore key: /etc/ssh/ssh_host_dsa_key
+fai.log:dpkg: warning: obsolete option '--print-installation-architecture', please use '--print-architecture' instead.
+fai.log:find: `/lib/modules/2.6.32-5-amd64/kernel/drivers/ide/pci': No such file or directory
+fai.log:Couldn't find package "vi", and more than 40
+fai.log:Couldn't find any package whose name or description matched "language-pack-sv"
+fai.log:Couldn't find any package whose name or description matched "language-pack-gnome-sv"
+fai.log:Couldn't find any package whose name or description matched "language-pack-gnome-sv-base"
+fai.log:Couldn't find any package whose name or description matched "firefox-locale-sv"
+fai.log:No candidate version found for openjdk-jre
+fai.log:Couldn't find package "vi", and more than 40
+fai.log:Couldn't find any package whose name or description matched "language-pack-sv"
+fai.log:Couldn't find any package whose name or description matched "language-pack-gnome-sv"
+fai.log:Couldn't find any package whose name or description matched "language-pack-gnome-sv-base"
+fai.log:Couldn't find any package whose name or description matched "firefox-locale-sv"
+fai.log:No candidate version found for openjdk-jre
+fai.log:insserv: warning: script 'nis' missing LSB tags and overrides
+fai.log:insserv: warning: script 'nis' missing LSB tags and overrides
+fai.log:insserv: warning: script 'nis' missing LSB tags and overrides
+fai.log:insserv: warning: script 'nis' missing LSB tags and overrides
+fai.log:insserv: warning: script 'nis' missing LSB tags and overrides
+fai.log:insserv: warning: script 'nis' missing LSB tags and overrides
+fai.log:insserv: warning: script 'nis' missing LSB tags and overrides
+fai.log:insserv: warning: script 'nis' missing LSB tags and overrides
+fai.log:insserv: warning: script 'nis' missing LSB tags and overrides
+fai.log:insserv: warning: script 'nis' missing LSB tags and overrides
+fai.log:insserv: warning: script 'nis' missing LSB tags and overrides
+fai.log:insserv: warning: script 'nis' missing LSB tags and overrides
+fai.log:insserv: warning: script 'nis' missing LSB tags and overrides
+fai.log:insserv: warning: script 'nis' missing LSB tags and overrides
+fai.log:insserv: warning: script 'nis' missing LSB tags and overrides
+fai.log:insserv: warning: script 'nis' missing LSB tags and overrides
+fai.log:insserv: warning: script 'nis' missing LSB tags and overrides
+fai.log:insserv: warning: script 'nis' missing LSB tags and overrides
+fai.log:insserv: warning: script 'nis' missing LSB tags and overrides
+fai.log:insserv: warning: script 'nis' missing LSB tags and overrides
+fai.log:insserv: warning: script 'nis' missing LSB tags and overrides
+fai.log:insserv: warning: script 'nis' missing LSB tags and overrides
+fai.log:insserv: warning: script 'nis' missing LSB tags and overrides
+fai.log:Couldn't find any package whose name or description matched "language-pack-sv"
+fai.log:Couldn't find any package whose name or description matched "language-pack-gnome-sv"
+fai.log:Couldn't find any package whose name or description matched "language-pack-gnome-sv-base"
+fai.log:Couldn't find any package whose name or description matched "firefox-locale-sv"
+fai.log:Couldn't find any package whose name or description matched "language-pack-sv"
+fai.log:Couldn't find any package whose name or description matched "language-pack-gnome-sv"
+fai.log:Couldn't find any package whose name or description matched "language-pack-gnome-sv-base"
+fai.log:Couldn't find any package whose name or description matched "firefox-locale-sv"
+fai.log:    RX: bytes  packets  errors  dropped overrun mcast   
+fai.log:    TX: bytes  packets  errors  dropped carrier collsns 
+fai.log:    RX: bytes  packets  errors  dropped overrun mcast   
+fai.log:    TX: bytes  packets  errors  dropped carrier collsns 
+fai.log:WARNING: Subdirectory tests/ not found. No tests run.

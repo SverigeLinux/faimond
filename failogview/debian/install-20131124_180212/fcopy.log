@@ -1,0 +1,7 @@
+etc/apt/sources.list	OS_ELEMENTARY_02_X64	# new (literal)
+etc/apt/trustdb.gpg	OS_ELEMENTARY_02_X64	# new (literal)
+etc/apt/trusted.gpg	OS_ELEMENTARY_02_X64	# new (literal)
+etc/default/console-setup	LANG_SWEDISH	# new (literal)
+etc/network/interfaces	NW_DHCP	# new (literal)
+etc/default/locale	LANG_SWEDISH	# new (literal)
+etc/default/keyboard	LANG_SWEDISH	# new (literal)

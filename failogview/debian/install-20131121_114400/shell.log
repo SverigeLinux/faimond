@@ -1,0 +1,77 @@
+=====   shell: BC_BASE/10-misc   =====
+fcopy: Nonexisting directory /var/lib/fai/config/files/etc/modules. No files copied.
+ainsl: appending to /target/etc/modules: usbkbd
+ainsl: appending to /target/etc/modules: ehci-hcd
+ainsl: appending to /target/etc/modules: ohci-hcd
+ainsl: appending to /target/etc/modules: uhci-hcd
+ainsl: appending to /target/etc/modules: usbhid
+ainsl: appending to /target/etc/modules: psmouse
+fcopy: Nonexisting directory /var/lib/fai/config/files/etc/hostname. No files copied.
+fcopy: Nonexisting directory /var/lib/fai/config/files/etc/hosts. No files copied.
+fcopy: Nonexisting directory /var/lib/fai/config/files/etc/motd. No files copied.
+BC_BASE/10-misc      OK.
+
+=====   shell: BC_BASE/20-fcopy   =====
+fcopy: copied /var/lib/fai/config/files/etc/network/interfaces/NW_DHCP to /target/etc/network/interfaces
+fcopy: Nonexisting directory /var/lib/fai/config/files/etc/ssh_known_hosts. No files copied.
+fcopy: copied /var/lib/fai/config/files/etc/default/locale/LANG_SWEDISH to /target/etc/default/locale
+fcopy: copied /var/lib/fai/config/files/etc/default/keyboard/LANG_SWEDISH to /target/etc/default/keyboard
+BC_BASE/20-fcopy     OK.
+
+=====   shell: OS_ELEMENTARY_02_X64/10-createuser   =====
+Adding user `workplays' ...
+Adding new group `workplays' (1000) ...
+Adding new user `workplays' (1000) with group `workplays' ...
+Creating home directory `/home/workplays' ...
+Copying files from `/etc/skel' ...
+OS_ELEMENTARY_02_X64/10-createuser OK.
+
+=====   shell: OS_ELEMENTARY_02_X64/20-flashsymlink   =====
+OS_ELEMENTARY_02_X64/20-flashsymlink OK.
+
+=====   shell: GRUB/10-setup   =====
+chroot: failed to run command `grub-mkdevicemap': No such file or directory
+chroot: failed to run command `grub-probe': No such file or directory
+chroot: failed to run command `grub-install': No such file or directory
+Grub installed on /dev/sda = 
+chroot: failed to run command `update-grub': No such file or directory
+GRUB/10-setup        FAILED with exit code 1.
+
+=====   shell: GRUB/20-initramfs   =====
+GRUB/20-initramfs    OK.
+
+=====   shell: LAST/40-language   =====
+update-initramfs: deferring update (trigger activated)
+LAST/40-language     OK.
+
+=====   shell: LAST/50-misc   =====
+Running "apt-get -f install" for the last time.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  libpolkit-backend-1-0 libedit2 libgconf-2-4 gconf2-common libv4l-0 liblcms1
+  libnettle4 libgphoto2-port0 libwrap0 libxcb-dri2-0 libcaca0 libgudev-1.0-0
+  libsamplerate0 libcdparanoia0 libavc1394-0 glib-networking-common libcap2
+  libproxy1 liblcms2-2 gir1.2-freedesktop libspeex1 libpolkit-gobject-1-0
+  libjack-jackd2-0 libxslt1.1 libgirepository-1.0-1 libnotify4
+  libstartup-notification0 libvisual-0.4-0 libbsd0 libxmuu1 gir1.2-gtk-3.0
+  libwavpack1 libsoup-gnome2.4-1 libarchive12 libv4lconvert0
+  gstreamer0.10-plugins-good gir1.2-soup-2.4 libportaudio2 libiec61883-0
+  libjson0 libgee2 libsonic0 libdbusmenu-glib4 espeak-data libtheora0 libaa1
+  libglib2.0-bin libgail-3-0 gir1.2-atk-1.0 libxatracker1 libasound2 libflac8
+  liborc-0.4-0 libraw1394-11 libespeak1 libshout3 libdv4 libvorbisenc2
+  libasyncns0 libgd2-xpm gir1.2-glib-2.0 libhunspell-1.3-0
+  gir1.2-gdkpixbuf-2.0 libgstreamer-plugins-base0.10-0 libquvi7
+  libgnome-keyring0 libgnome-keyring-common libxtst6 liblua5.1-0 libtag1c2a
+  libpolkit-agent-1-0 libquvi-scripts libpulse0 libcurl3-gnutls libexif12
+  libglu1-mesa libvorbis0a glib-networking-services libxcb-shape0
+  libgstreamer0.10-0 libxv1 gstreamer0.10-plugins-base libxcb-util0
+  libsndfile1 gir1.2-javascriptcoregtk-3.0 libltdl7 glib-networking
+  gir1.2-pango-1.0 libllvm3.0 libsoup2.4-1 libgphoto2-2 libogg0
+  libtag1-vanilla
+Use 'apt-get autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+ERROR: No kernel was installed. Have a look at shell.log
+LAST/50-misc         OK.
+

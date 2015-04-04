@@ -1,0 +1,55 @@
+=====   shell: BC_BASE/10-misc   =====
+fcopy: Nonexisting directory /var/lib/fai/config/files/etc/modules. No files copied.
+ainsl: appending to /target/etc/modules: usbkbd
+ainsl: appending to /target/etc/modules: ehci-hcd
+ainsl: appending to /target/etc/modules: ohci-hcd
+ainsl: appending to /target/etc/modules: uhci-hcd
+ainsl: appending to /target/etc/modules: usbhid
+ainsl: appending to /target/etc/modules: psmouse
+fcopy: Nonexisting directory /var/lib/fai/config/files/etc/hostname. No files copied.
+fcopy: Nonexisting directory /var/lib/fai/config/files/etc/hosts. No files copied.
+fcopy: Nonexisting directory /var/lib/fai/config/files/etc/motd. No files copied.
+BC_BASE/10-misc      OK.
+
+=====   shell: BC_BASE/20-fcopy   =====
+fcopy: copied /var/lib/fai/config/files/etc/network/interfaces/NW_DHCP to /target/etc/network/interfaces
+fcopy: Nonexisting directory /var/lib/fai/config/files/etc/ssh_known_hosts. No files copied.
+fcopy: copied /var/lib/fai/config/files/etc/default/locale/LANG_SWEDISH to /target/etc/default/locale
+fcopy: copied /var/lib/fai/config/files/etc/default/keyboard/LANG_SWEDISH to /target/etc/default/keyboard
+BC_BASE/20-fcopy     OK.
+
+=====   shell: OS_ELEMENTARY_02_X64/10-createuser   =====
+Adding user `workplays' ...
+Adding new group `workplays' (1000) ...
+Adding new user `workplays' (1000) with group `workplays' ...
+Creating home directory `/home/workplays' ...
+Copying files from `/etc/skel' ...
+OS_ELEMENTARY_02_X64/10-createuser OK.
+
+=====   shell: OS_ELEMENTARY_02_X64/20-flashsymlink   =====
+OS_ELEMENTARY_02_X64/20-flashsymlink OK.
+
+=====   shell: GRUB/10-setup   =====
+chroot: failed to run command `grub-mkdevicemap': No such file or directory
+chroot: failed to run command `grub-probe': No such file or directory
+chroot: failed to run command `grub-install': No such file or directory
+Grub installed on /dev/sda = 
+chroot: failed to run command `update-grub': No such file or directory
+GRUB/10-setup        FAILED with exit code 1.
+
+=====   shell: GRUB/20-initramfs   =====
+update-initramfs: Generating /boot/initrd.img-3.2.0-23-generic
+GRUB/20-initramfs    OK.
+
+=====   shell: LAST/40-language   =====
+update-initramfs: deferring update (trigger activated)
+LAST/40-language     OK.
+
+=====   shell: LAST/50-misc   =====
+Running "apt-get -f install" for the last time.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+LAST/50-misc         OK.
+
