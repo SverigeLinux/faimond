@@ -3,7 +3,7 @@
 /*********functions to update database******************/
 
 function create_new_monitor_entry($host) {
-  $con=mysql_connect('localhost', 'root', 'fai');
+  $con=mysql_connect('localhost', '@FAIMOND_DB_USER@', '@FAIMOND_DB_PWD@');
   mysql_select_db('faimond', $con);
   $sql = "INSERT INTO host_entries (host) VALUES ('".$host."')";
   echo $sql;
@@ -13,7 +13,7 @@ function create_new_monitor_entry($host) {
 }
 
 function update_monitor_entry($host, $action, $task, $result) {
-  $con=mysql_connect('localhost', 'root', 'fai');
+  $con=mysql_connect('localhost', '@FAIMOND_DB_USER@', '@FAIMOND_DB_PWD@');
   mysql_select_db('faimond', $con);
   $sql = "UPDATE host_entries SET task_".$task." = '".$action.' '.$result."' WHERE host = '".$host."' ORDER BY created_time DESC LIMIT 1";
   $query=mysql_query($sql,$con);

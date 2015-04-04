@@ -1,6 +1,6 @@
 <?php
 function get_monitor_entries($states) {
-  $con=mysql_connect('localhost', 'root', 'fai');
+  $con=mysql_connect('localhost', '@FAIMOND_DB_USER@', '@FAIMOND_DB_PWD@');
   mysql_select_db('faimond', $con);
   //$ordered_states = '';
   //$print_r($states);
